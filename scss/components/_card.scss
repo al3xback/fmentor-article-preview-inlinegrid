@@ -54,13 +54,13 @@
 
 .card__content {
 	position: relative;
-	gap: func.em(15, 16);
+	gap: func.em(15, var.$font-size-primary);
 	padding: func.em(32, var.$font-size-primary)
 		func.em(32, var.$font-size-primary) func.em(20, var.$font-size-primary);
 }
 
 .card__desc {
-	margin-bottom: func.em(10, 13);
+	margin-bottom: func.em(10, var.$font-size-primary);
 }
 
 .card__author {
@@ -153,7 +153,7 @@
 	color: var.$color-white;
 }
 
-@media (min-width: 60em) {
+@media (min-width: 56em) {
 	.card {
 		grid-template-columns: func.em(280, var.$font-size-primary) 1fr;
 		max-width: func.em(720, var.$font-size-primary);
