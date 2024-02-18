@@ -20,6 +20,7 @@
 }
 
 .card {
+	width: 100%;
 	max-width: func.em(320, var.$font-size-primary);
 	background-color: var.$color-white;
 	margin: func.em(30, var.$font-size-primary) 0
